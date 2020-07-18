@@ -45,18 +45,19 @@ struct Block: View {
                     HStack(spacing:0){
                         if index == 0 {
                             ForEach(items[index].reversed(), id: \.self) { color in
-                                Cube(color: color)
+                                ColorCube(color: color)
                                     .matchedGeometryEffect(id: color.description, in: cube)
 
                             }
                         } else {
                             ForEach(items[index], id: \.self) { color in
-                                Cube(color: color)
+                                ColorCube(color: color)
                                     .matchedGeometryEffect(id: color.description , in: cube)
 
                             }
                         }
-                    }.animation(.default)
+                    }
+                    .animation(.default)
                 }
             }
             .onAppear {
@@ -109,7 +110,7 @@ struct Block: View {
     
 }
 
-struct Cube: View {
+struct ColorCube: View {
     var color: Color
     
     var body: some View {
