@@ -16,7 +16,7 @@
 		DC40DC2924C1988400557431 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC40DC2824C1988400557431 /* Block.swift */; };
 		DC40DC2B24C1F9A500557431 /* LegoAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = DC40DC2A24C1F9A500557431 /* LegoAnimation.gif */; };
 		DCDD271D24C2060C00A5E3B5 /* Block3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCDD271C24C2060C00A5E3B5 /* Block3D.swift */; };
-		DCEB568924C2C65E004E0CEE /* LegoAnimation3d.gif in Resources */ = {isa = PBXBuildFile; fileRef = DCEB568824C2C65E004E0CEE /* LegoAnimation3d.gif */; };
+		DCEB568D24C2C7BB004E0CEE /* LegoAnimation3d.gif in Resources */ = {isa = PBXBuildFile; fileRef = DCEB568C24C2C7BB004E0CEE /* LegoAnimation3d.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		DC40DC2824C1988400557431 /* Block.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block.swift; sourceTree = "<group>"; };
 		DC40DC2A24C1F9A500557431 /* LegoAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LegoAnimation.gif; sourceTree = "<group>"; };
 		DCDD271C24C2060C00A5E3B5 /* Block3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Block3D.swift; sourceTree = "<group>"; };
-		DCEB568824C2C65E004E0CEE /* LegoAnimation3d.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LegoAnimation3d.gif; sourceTree = "<group>"; };
+		DCEB568C24C2C7BB004E0CEE /* LegoAnimation3d.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = LegoAnimation3d.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 		DC40DBF124C1987300557431 = {
 			isa = PBXGroup;
 			children = (
-				DCEB568824C2C65E004E0CEE /* LegoAnimation3d.gif */,
+				DCEB568C24C2C7BB004E0CEE /* LegoAnimation3d.gif */,
 				DC40DC2A24C1F9A500557431 /* LegoAnimation.gif */,
 				DC40DBFC24C1987300557431 /* lego */,
 				DC40DC0E24C1987400557431 /* legoTests */,
@@ -246,7 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC40DC0524C1987400557431 /* Preview Assets.xcassets in Resources */,
-				DCEB568924C2C65E004E0CEE /* LegoAnimation3d.gif in Resources */,
+				DCEB568D24C2C7BB004E0CEE /* LegoAnimation3d.gif in Resources */,
 				DC40DC0224C1987400557431 /* Assets.xcassets in Resources */,
 				DC40DC2B24C1F9A500557431 /* LegoAnimation.gif in Resources */,
 			);
