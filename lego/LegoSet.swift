@@ -44,8 +44,6 @@ struct LegoSet: View {
     ]
     @State var currentIndex: Int = 4
     
-    @Namespace private var cubeNamespace
-    
     var body: some View {
         ZStack {
             ForEach(0..<allBlocks.count) { index in
@@ -62,7 +60,6 @@ struct LegoSet: View {
     func cube(index: Int) -> some View {
         let offset = allIndices[index]
         return allBlocks[index].view
-            .matchedGeometryEffect(id: allBlocks[index], in: cubeNamespace)
             .offset(x: offset.0, y: offset.1)
             .zIndex(offset.2)
     }
